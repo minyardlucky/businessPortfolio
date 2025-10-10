@@ -1,14 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curt Minyard | Portfolio</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicons/favicon-192x192.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/favicon-180x180.png">
 </head>
+
 <body>
-    <h1>Curt Minyard</h1>
-    <img src="your-image.jpg" alt="A picture of you">
-    <p>This is a brief description about yourself.</p>
-    <a href="https://github.com/CurtMinyard" target="_blank">Visit my GitHub</a>
+
+  <nav>
+    <h2 class="logo">Curt Minyard</h2>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certs">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <img src="images/image2.png" alt="Curt Minyard" class="profile-pic">
+      <h1>Hello, I'm <span>Curt Minyard</span></h1>
+      <p class="tagline">Turning Ideas into Code & Business Solutions</p>
+      <a href="https://github.com/minyardcurt" target="_blank" class="btn">Visit My GitHub</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am dedicated to providing superior service and staying on top of the latest advancements in technology.
+      I thrive in collaborative environments, welcome constructive feedback, and enjoy sharing creative ideas.
+      With 20+ years in the Home Improvement business, I understand the value of reputation and professionalism.
+      Transitioning into full-stack web development, I’ve built projects from simple HTML pages to complex MERN applications.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><i class="fab fa-html5"></i><p>HTML5</p></div>
+      <div class="skill"><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+      <div class="skill"><i class="fab fa-js-square"></i><p>JavaScript</p></div>
+      <div class="skill"><i class="fab fa-react"></i><p>React</p></div>
+      <div class="skill"><i class="fab fa-node-js"></i><p>Node.js</p></div>
+      <div class="skill"><i class="fas fa-database"></i><p>MongoDB</p></div>
+      <div class="skill"><i class="fas fa-brain"></i><p>AI Assisted Development</p></div>
+    </div>
+  </section>
+  
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.png" alt="Project Screenshot">
+        <h3>My First React App.</h3>
+        <p>This was the very first app. using React + Vite just a simple app. that changes color when you toggle the buttons.</p>
+        <a href="https://minyardcurt.github.io/myFirstReactApp/" target="_blank" class="btn">Live Demo</a>
+        <a href="https://github.com/minyardcurt/myFirstReactApp" target="_blank" class="btn-outline">GitHub</a>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.png" alt="Project Screenshot">
+        <h3>Palindrome Clock</h3>
+        <p>A simple Java Script project the calculates break time that is set to default of very 25 min. it sounds a tone and gives a 5min. break and tones again but is also adjusted by user input and interaction.</p>
+        <a href="https://minyardcurt.github.io/25-5-clock/" target="_blank" class="btn">Live Demo</a>
+        <a href="https://github.com/minyardcurt/25-5-clock" target="_blank" class="btn-outline">GitHub</a>
+      </div>
+            <div class="project-card">
+        <img src="images/project3.png" alt="Project Screenshot">
+        <h3>Movie Data Base</h3>
+        <p>A full-stack movie database app built with MongoDB, showcasing seamless frontend-backend integration. Designed to be user-friendly while highlighting strong project architecture and modern development practices.</p>
+        <a href="https://minyardcurt.github.io/MovieDB/" target="_blank" class="btn">Live Demo</a>
+        <a href="https://github.com/minyardcurt/MovieDB" target="_blank" class="btn-outline">GitHub</a>
+      </div>
+            <div class="project-card">
+        <img src="images/project4.png" alt="Project Screenshot">
+        <h3>A Good Time Calculator  </h3>
+        <p>A lightweight JavaScript application that combines functionality and interactivity. The app allows users to input data to calculate sentence reductions for inmates based on good behavior. It also integrates a weather API, enabling users to check local conditions in real time, while a background melody adds a more engaging user experience.</p>
+        <a href="https://minyardcurt.github.io/Good-Behavior-Sentence-Calc-/" target="_blank" class="btn">Live Demo</a>
+        <a href="https://github.com/minyardcurt/Good-Behavior-Sentence-Calc-/" target="_blank" class="btn-outline">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="certs">
+    <h2>Certificates & Recognition</h2>
+    <h3>Click on the certs. to view</h3>
+    <div class="cert-gallery">
+      <img src="images/cert01.png" alt="Responsive Web Design Cert."> 
+      <img src="images/cert02.png" alt="JavaScript Cert"> 
+      <img src="images/cert2.png" alt="Front End Libraries Certificate">
+      <img src="images/cert1.png" alt="Data Visualization Certificate">
+      <img src="images/cert3.png" alt="Edovo Html Certificate">
+      <img src="images/cert4.png" alt="Edovo JavaScript Certificate">
+      <img src="images/cert6.png" alt="Edovo JavaScript as 2nd lang. Cert">
+      <img src="images/cert5.png" alt="Edovo Comp.Sci. Principals Cert">
+      <img src="images/cert7.png" alt="Edovo Transcripts">                  
+    </div>
+  </section>
+
+<div id="certModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="certModalImg" alt="Expanded Certificate">
+  <div id="caption"></div>
+</div>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" name="name" placeholder="Your Name" required>
+    <input type="email" id="email" name="email" placeholder="Your Email" required>
+    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+    <div id="formFeedback" role="status" style="margin-top:10px;"></div>
+  </form>
+
+  <div class="socials">
+    <a href="https://github.com/minyardcurt" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="mailto:minyardlucky@gmail.com?subject=Portfolio%20Inquiry"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/Curtis Minyard" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</section>
+<footer>
+    <p>© 2025 Curt Minyard | Built with passion for creativity and code</p>
+  </footer>
+<script src="js/contact.js"></script>
+<script src="js/certs.js"></script>
 </body>
 </html>
