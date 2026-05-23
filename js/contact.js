@@ -2,14 +2,7 @@
   const form = document.getElementById('contactForm');
   const feedback = document.getElementById('formFeedback');
 
-  // Detect environment: local (localhost OR 127.0.0.1) or deployed
-  const isLocal =
-    window.location.hostname === "localhost" ||
-    window.location.hostname === "127.0.0.1";
-
-  const backendURL = isLocal
-    ? "http://localhost:3001/api/contact"
-    : "https://your-render-backend.onrender.com/api/contact"; // replace with your actual Render URL
+  const backendURL = "/api/contact";
 
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
